@@ -8,3 +8,5 @@ function spammer(){
   wind.document.body.appendChild(idiot)
   }
 }
+
+spammer()
