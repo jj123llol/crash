@@ -1,4 +1,3 @@
-/*
 function spammer(){
   while(true){
   wind = window.open()
@@ -11,4 +10,3 @@ function spammer(){
 }
 
 spammer()
-*/
